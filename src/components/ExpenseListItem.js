@@ -4,7 +4,7 @@ import moment from 'moment';
 import numeral from 'numeral';
 import 'numeral/locales/fr';
 
-numeral.locale('fr')
+numeral.locale('fr');
 
 
 const ExpenseListItem = ({ id, description, amount, createdAt }) => (
